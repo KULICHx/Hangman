@@ -16,7 +16,6 @@ public class Logic {
         char character = ' ';
         StringBuilder wrongLetters = new StringBuilder();
         while(mistakes != 6 && !(word.equals(userWord.toString()))){
-            System.out.println(word);
             System.out.println("Слово: "+ userWord);
             System.out.println("Ошибки (" + mistakes + "): "+ wrongLetters);
             System.out.print("введите букву: ");
